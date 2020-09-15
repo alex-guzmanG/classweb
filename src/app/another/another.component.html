@@ -1,1 +1,8 @@
-<p>another works!</p>
+<p>Este componente se llama {{name}}</p>
+
+nombre: {{detalles.nombre}}<br>
+estilos: {{detalles.estilo}}<br>
+cantidad: {{detalles.cantidad}}<br>
+
+<button (click)="open()">color</button>
+<p *ngIf="color==true">tengo color</p>
